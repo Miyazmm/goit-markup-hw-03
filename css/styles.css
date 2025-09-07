@@ -201,6 +201,10 @@ ul {
     gap: 24px;
 }
 
+.advantages-list .advantages-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
 li.advantages-list-item {
     width: calc((100% - 72px) / 4);
 }
@@ -253,9 +257,12 @@ flex-wrap: wrap;
 gap: 24px;
 }
 
+.team-list .team-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
 li.team-list-item {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     padding: 0px 0px 32px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -294,6 +301,10 @@ justify-content: center;
 align-items: center;
 column-gap: 24px;
 row-gap: 48px;
+}
+
+.portfolio-list .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
 }
 
 li.portfolio-list-item {
