@@ -11,8 +11,6 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     flex: none;
-order: 0;
-flex-grow: 0;
         
 }
 
@@ -43,13 +41,13 @@ ul {
 .page-header .container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
 }
 
 .page-nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding: 24px 0;
 }
 
 .order-button {
@@ -88,10 +86,6 @@ ul {
     flex-wrap: wrap;
 }
 
-.section-list-item {
-    padding: 24px 0;
-}
-
 .section-link {
     font-weight: 500;
     font-size: 16px;
@@ -99,6 +93,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .section-link:hover,
@@ -121,6 +116,10 @@ ul {
     justify-content: space-between;
     flex-wrap:wrap;
     gap: 40px;
+}
+
+.contacts-list-item {
+    padding: 24px 0;
 }
 
 .contacts-link {
@@ -274,6 +273,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .member-job {
@@ -299,7 +299,7 @@ row-gap: 48px;
 
 .portfolio-list-item {
     border: 1px solid #E7E9FC;
-    width: calc((100% - 48px)/3);
+    width: calc((100% - 48px) / 3);
     
 }
 
@@ -316,6 +316,7 @@ row-gap: 48px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .portfolio-type {
