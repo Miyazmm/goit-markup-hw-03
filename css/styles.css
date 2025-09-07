@@ -201,7 +201,7 @@ ul {
     gap: 24px;
 }
 
-li .advantages-list-item {
+li.advantages-list-item {
     width: calc((100% - 72px) / 4);
 }
 
@@ -253,7 +253,7 @@ flex-wrap: wrap;
 gap: 24px;
 }
 
-li .team-list-item {
+li.team-list-item {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -296,7 +296,7 @@ column-gap: 24px;
 row-gap: 48px;
 }
 
-li .portfolio-list-item {
+li.portfolio-list-item {
     border: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);
 }
